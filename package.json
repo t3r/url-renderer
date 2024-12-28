@@ -1,0 +1,22 @@
+{
+  "name": "url-renderer",
+  "version": "1.0.0",
+  "description": "A simple URL to image renderer using chromium and puppeteer",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+      "express": "^4.21.2",
+      "puppeteer": "^23.11.1",
+      "@types/express": "^4.17.17",
+      "@types/node": "^18.15.0",
+      "typescript": "^5.0.0",
+      "ts-node": "^10.9.1"
+  },
+  "keywords": ["url", "renderer", "image", "puppeteer", "chromium"],
+  "author": "Torsten Dreyer <torsten@t3r.de>",
+  "license": "GPL-2.0-or-later"
+}
